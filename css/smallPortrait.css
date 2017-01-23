@@ -1,0 +1,192 @@
+/*font-family: 'Open Sans', sans-serif; for article text*/
+/*font-family: 'Oswald', sans-serif; for headline text*/
+
+#header {
+    width: 100vw;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 15vh;
+}
+.nav-logo-container {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+
+}
+#nav-logo {
+    width: 100%;
+    font-size: 2em;
+}
+
+#nav-logo-titles {
+    width: 90%;
+    font-size: 1.2em;
+}
+
+.nav-names {
+    padding-left: 3%;
+}
+
+#menu-button{
+    background-color: #44351b;
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+    margin:auto;
+    color: ghostwhite;
+}
+
+.button-symbol {
+    color: white;
+}
+
+#large-nav-link-container {
+    display: none;
+}
+
+#mobile-nav-link-container {
+    opacity: .90;
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    width: 50vw;
+    margin-left: -51vw;
+    box-shadow: 1px 1px 4px black;
+}
+.mobile-nav-link {
+    background-color: #e8dfd0;
+    border-top: solid black 1px;
+    width: 100%;
+    height: 5vh;
+    padding: 2%;
+    margin: auto;
+}
+
+#home-content {
+    width: 100vw;
+    height: 40vh;
+    color: white;
+    background: url('hua-tuo.jpg') no-repeat center center;
+    background-size: 100% 100%;
+    transition: all 1s ease-in-out;
+}
+#home-content a{
+    text-decoration: none;
+    color: #e8dfd0;
+}
+
+#home-image1 {
+    width:100%;
+    height: 100%;
+    /*position: fixed;*/
+    /*z-index: -1;*/
+    overflow: hidden;
+}
+
+#home-picture-headline {
+    padding-top:35%;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: -1px 1px black, 1px -1px black;
+}
+
+.home-content-text {
+    text-align: center;
+    padding-top: 5%;
+    text-shadow: -1px 1px black, 1px -1px black;
+
+}
+
+#apt-link1 {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.contact-content {
+    background-color:#e8dfd0;
+}
+
+.contact-headline {
+    padding-top: 4%;
+}
+
+.contact-section {
+    padding: 2% 0 4% 6%;
+}
+
+.contact-block {
+    display: flex;
+    flex-flow: row;
+    padding: 4% 0 0 6%;
+
+}
+
+.contact-block-type {
+    width: 20%;
+}
+
+.contact-block-text {
+    width: 80%;
+    padding-top: 1%;
+
+}
+
+.contact-info-text {
+    padding: 2% 0 0 6%;
+}
+hr {
+    width: 88vw;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+}
+.article-section {
+    background-color: #e8dfd0;
+    padding: 2% 6% 0 6%;
+    height:35vh;
+    overflow: scroll;
+}
+
+.article-sub-section {
+    background-color: #e8dfd0;
+    padding: 2% 0 0 0;
+}
+
+.article-picture-section{
+    width: 80%;
+    padding: 4% 0 0 0;
+}
+
+.article-picture{
+    padding: 2% 0 0 0;
+    width: 100%
+}
+
+.article-headline {
+    padding: 0 0 2% 6%;
+    background-color: #e8dfd0;
+}
+
+.article-text{
+    padding: 2% 0 2% 0;
+}
+
+.article-list {
+    padding: 2% 2% 2% 6%;
+}
+
+.employee-picture-section {
+    width: 100vw;
+}
+
+.employee-picture {
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.router-page {
+    background-color: #e8dfd0;
+    height: 82vh;
+}

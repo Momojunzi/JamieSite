@@ -1,0 +1,36 @@
+
+#header {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 15vh;
+}
+
+#nav-logo-container {
+    width: 50%;
+    margin: auto;
+}
+
+#menu-button {
+    display: none;
+}
+#mobile-nav-link-container {
+    display: none;
+}
+.mobile-nav-link {
+   display: none;
+}
+#large-nav-link-container {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    flex-flow: wrap;
+}
+.nav-link {
+    text-align: center;
+    margin: auto;
+    width: 20%;
+}
