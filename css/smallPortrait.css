@@ -7,6 +7,9 @@
     #nav-logo-titles {
         font-size: .5em;
     }
+    .nav-logo-container {
+        width: 90%;
+    }
 }
 
 #header {
