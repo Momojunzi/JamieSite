@@ -8,12 +8,13 @@
     flex-wrap: wrap;
     margin: auto;
     height: 15vh;
+    border-bottom: solid #44351b 0.5vh;
 }
 .nav-logo-container {
     display: flex;
     flex-flow: column;
     flex-wrap: wrap;
-
+    width: 80%;
 }
 #nav-logo {
     width: 100%;
@@ -30,16 +31,19 @@
 }
 
 #menu-button{
-    background-color: #44351b;
+    background-color:#e8dfd0;
+    border: solid #44351b 2px;
     text-align: center;
-    font-size: 1.2em;
-    width: 100%;
-    margin:auto;
-    color: ghostwhite;
+    font-size: 1.4em;
+    height: 6vh;
+    width: 10%;
+    margin:auto auto auto 2%;
+    color: #44351b;
+    padding-top: 2%;
 }
 
 .button-symbol {
-    color: white;
+
 }
 
 #large-nav-link-container {
@@ -71,10 +75,11 @@
     background: url('hua-tuo.jpg') no-repeat center center;
     background-size: 100% 100%;
     transition: all 1s ease-in-out;
+    border-bottom: solid #44351b 0.5vh;
 }
 #home-content a{
     text-decoration: none;
-    color: #e8dfd0;
+    color: white;
 }
 
 #home-image1 {
@@ -108,18 +113,14 @@
     background-color:#e8dfd0;
 }
 
-.contact-headline {
-    padding-top: 4%;
-}
-
 .contact-section {
-    padding: 2% 0 4% 6%;
+    padding: 4% 0 6% 6%;
 }
 
 .contact-block {
     display: flex;
     flex-flow: row;
-    padding: 4% 0 0 6%;
+    padding: 4% 0 0 0;
 
 }
 
@@ -128,8 +129,8 @@
 }
 
 .contact-block-text {
-    width: 80%;
-    padding-top: 1%;
+
+    padding-top: 2%;
 
 }
 
@@ -139,14 +140,13 @@
 hr {
     width: 88vw;
     height: 2px;
-    background-color: black;
+    background-color: #44351b;
     margin: auto;
 }
 .article-section {
     background-color: #e8dfd0;
     padding: 2% 6% 0 6%;
     height:35vh;
-    overflow: scroll;
 }
 
 .article-sub-section {
@@ -179,14 +179,17 @@ hr {
 
 .employee-picture-section {
     width: 100vw;
+
 }
 
 .employee-picture {
     max-width: 100vw;
     overflow: hidden;
+    border-bottom: solid #44351b 0.5vh;
 }
 
 .router-page {
     background-color: #e8dfd0;
-    height: 82vh;
+    height: 85vh;
+    overflow: scroll;
 }

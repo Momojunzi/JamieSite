@@ -63,15 +63,15 @@
             url: '#/'
         },
         {
-            name: 'Classes',
+            name: 'About',
             url: '#classes'
         },
         {
-            name: 'About',
+            name: 'Our Staff',
             url: '#about'
         },
         {
-            name: 'appointments',
+            name: 'Appointments',
             url: '#contact'
         }
     ]
