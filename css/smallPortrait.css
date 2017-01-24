@@ -2,10 +2,10 @@
 /*font-family: 'Oswald', sans-serif; for headline text*/
 @media (max-width: 330px) {
     #nav-logo {
-        font-size: .5em;
+        font-size: 1vw;
     }
     #nav-logo-titles {
-        font-size: .5em;
+        font-size: 1vw;
     }
 }
 
