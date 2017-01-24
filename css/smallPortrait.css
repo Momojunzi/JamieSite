@@ -1,12 +1,12 @@
 /*font-family: 'Open Sans', sans-serif; for article text*/
 /*font-family: 'Oswald', sans-serif; for headline text*/
-@media(max-width: 322px) {
+@media (max-width: 322px) {
     #nav-logo {
-        font-size: 12px;
+        font-size: 10em;
         color: blue;
     }
     #nav-logo-titles {
-        font-size: 6px;
+        font-size:5em;
     }
     .nav-logo-container {
         width: 90%;
