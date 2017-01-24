@@ -1,14 +1,8 @@
 /*font-family: 'Open Sans', sans-serif; for article text*/
 /*font-family: 'Oswald', sans-serif; for headline text*/
-@media screen and (max-width: 330px) {
-    .nav-logo-container {
-        width: 85%;
-    }
-    #nav-logo {
-        font-weight: normal;
-    }
+@media screen and (max-width: 324px) {
    #menu-button {
-        padding-top: 1%;
+        padding-top: 0.5%;
    }
 }
 
@@ -30,7 +24,6 @@
 #nav-logo {
     width: 100%;
     font-size: 2em;
-    font-weight: bold
 }
 
 #nav-logo-titles {
@@ -52,10 +45,6 @@
     margin:auto auto auto 2%;
     color: #44351b;
     padding-top: 2%;
-}
-
-.button-symbol {
-
 }
 
 #large-nav-link-container {
@@ -203,4 +192,10 @@ hr {
     background-color: #e8dfd0;
     height: 85vh;
     overflow: scroll;
+}
+
+@media screen and (min-width: 325px) {
+    #nav-logo {
+        font-weight: bold;
+    }
 }
