@@ -11,6 +11,17 @@
     .nav-logo-container {
         width: 90%;
     }
+    #menu-button{
+    background-color:#e8dfd0;
+    border: solid #44351b 2px;
+    text-align: center;
+    font-size: 1.4em;
+    height: 6vh;
+    width: 5%;
+    margin:auto auto auto 2%;
+    color: #44351b;
+    padding-top: 1%;
+}
 }
 
 #header {
