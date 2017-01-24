@@ -1,14 +1,12 @@
 /*font-family: 'Open Sans', sans-serif; for article text*/
 /*font-family: 'Oswald', sans-serif; for headline text*/
 @media screen and (max-width: 330px) {
-    .nav-logo-container{
-    }
     #nav-logo {
-        font-size:.5vw;
+        font-weight: normal;
     }
-    #nav-logo-titles {
-        font-size:.5vw;
-    }
+   #menu-button {
+        padding-top: 1%;
+   }
 }
 
 #header {
