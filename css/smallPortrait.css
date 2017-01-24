@@ -98,7 +98,6 @@
     color: white;
     background: url('hua-tuo.jpg') no-repeat center center;
     background-size: 100% 100%;
-    transition: all 1s ease-in-out;
     border-bottom: solid #44351b 0.5vh;
 }
 #home-content a{
