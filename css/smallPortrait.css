@@ -3,6 +3,7 @@
 @media (max-width: 322px) {
     #nav-logo {
         font-size: .5em;
+        color: red;
     }
     #nav-logo-titles {
         font-size: .5em;
