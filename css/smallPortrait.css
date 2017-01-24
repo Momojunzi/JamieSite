@@ -1,10 +1,5 @@
 /*font-family: 'Open Sans', sans-serif; for article text*/
 /*font-family: 'Oswald', sans-serif; for headline text*/
-@media screen and (max-width: 324px) {
-   #menu-button {
-        padding-top: -1%;
-   }
-}
 
 #header {
     width: 100vw;
@@ -198,4 +193,10 @@ hr {
     #nav-logo {
         font-weight: bold;
     }
+}
+
+@media screen and (max-width: 324px) {
+   #menu-button {
+        padding-top: -1%;
+   }
 }
